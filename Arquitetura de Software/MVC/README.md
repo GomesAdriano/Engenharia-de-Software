@@ -76,7 +76,7 @@ Todo esse processo leva em consideração as regras de negócio aplicadas na con
 
 
 ## 6.**Por que usar MVC?**
-
+<p align="justify">
 - **Segurança**: O controller funciona como uma espécie de filtro capaz de impedir que qualquer dado incorreto chegue até a camada modelo. 
 
 - **Organização**: Esse método de programação permite que um novo desenvolvedor tenha muito mais facilidade em entender o que foi construído, assim como os erros se tornam mais fácil de serem encontrados e corrigidos.
@@ -89,12 +89,12 @@ Todo esse processo leva em consideração as regras de negócio aplicadas na con
 
 - **Testes**: Uma vantagem é que ele nos ajuda a deixar o código mais fácil de fazer manutenção, já que temos as responsabilidades devidamente separadas. Isso também traz uma facilidade na compreensão do código, além da sua reutilização. Além disso, você conseguirá realizar testes de uma maneira muito mais rápida e eficiente.
 
-Além disso, um software precisa ter estabilidade no processo de comunicação entre seus elementos de maneira dinâmica para que a experiência do usuário não seja prejudicada. 
+Além disso, um software precisa ter estabilidade no processo de comunicação entre seus elementos de maneira dinâmica para que a experiência do usuário não seja prejudicada.</p> 
 
 
 ## 7.**Implementação do MVC**
 
-Além da possibilidade de implementação manual, existem diversos frameworks que implementam o padrão MVC e são muito utilizados em diversos projetos. Existem diversos artigos e sites especializados que comparam as diferenças e vantagens entre esses diferentes frameworks. No entanto, o melhor é sempre verificar o que cada framework disponibiliza para os desenvolvedores e analisar se atende às expectativas.
+<p align="justify">Além da possibilidade de implementação manual, existem diversos frameworks que implementam o padrão MVC e são muito utilizados em diversos projetos. Existem diversos artigos e sites especializados que comparam as diferenças e vantagens entre esses diferentes frameworks. No entanto, o melhor é sempre verificar o que cada framework disponibiliza para os desenvolvedores e analisar se atende às expectativas.</p>
 
 
 ## 8. **Considerações finais**
