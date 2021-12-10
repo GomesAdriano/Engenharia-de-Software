@@ -29,7 +29,7 @@ Este conteúdo está estruturado da seguinte forma:
 - **README.MD**
     - Arquivo MARKDOWN para melhor visualização do conteúdo
 
-<p></p>
+<p> </p>
 
 ## 2. **O que é MVC?**
 
