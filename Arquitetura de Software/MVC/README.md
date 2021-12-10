@@ -92,26 +92,29 @@ Todo esse processo leva em consideração as regras de negócio aplicadas na con
 ## 5. **Diagrama**
 
 <p align="center">
+
 ![DIAGRAMA-MVC](https://github.com/GomesAdriano/Engenharia-de-Software/blob/main/Arquitetura%20de%20Software/MVC/Imagens/Diagrama-MVC.png)
+
 <p>
 
 <br>
 
 ## 6.**Por que usar MVC?**
 
-- **Segurança**: <p align="justify">O controller funciona como uma espécie de filtro capaz de impedir que qualquer dado incorreto chegue até a camada modelo. </p>
-
-- **Organização**: <p align="justify">Esse método de programação permite que um novo desenvolvedor tenha muito mais facilidade em entender o que foi construído, assim como os erros se tornam mais fácil de serem encontrados e corrigidos.</p>
-
-- **Eficiência**: <p align="justify">Como a arquitetura de software é dividida em 3 componentes, sua aplicação fica muito mais leve, permitindo que vários desenvolvedores trabalhem no projeto de forma independente.</p>
-
-- **Tempo**: <p align="justify">Com a dinâmica facilitada pela colaboração entre os profissionais de desenvolvimento, o projeto pode ser concluído com muito mais rapidez, tornando o projeto escalável.</p> 
-
-- **Transformação**: <p align="justify">As mudanças que forem necessárias também são mais fluidas, já que não será essencial trabalhar nas regras de negócio e correção de bugs.</p>
-
-- **Testes**: <p align="justify">Uma vantagem é que ele nos ajuda a deixar o código mais fácil de fazer manutenção, já que temos as responsabilidades devidamente separadas. Isso também traz uma facilidade na compreensão do código, além da sua reutilização. Além disso, você conseguirá realizar testes de uma maneira muito mais rápida e eficiente.</p>
-
 <p align="justify">
+
+- **Segurança**: O controller funciona como uma espécie de filtro capaz de impedir que qualquer dado incorreto chegue até a camada modelo.
+
+- **Organização**: Esse método de programação permite que um novo desenvolvedor tenha muito mais facilidade em entender o que foi construído, assim como os erros se tornam mais fácil de serem encontrados e corrigidos.
+
+- **Eficiência**: Como a arquitetura de software é dividida em 3 componentes, sua aplicação fica muito mais leve, permitindo que vários desenvolvedores trabalhem no projeto de forma independente.
+
+- **Tempo**: Com a dinâmica facilitada pela colaboração entre os profissionais de desenvolvimento, o projeto pode ser concluído com muito mais rapidez, tornando o projeto escalável. 
+
+- **Transformação**: As mudanças que forem necessárias também são mais fluidas, já que não será essencial trabalhar nas regras de negócio e correção de bugs.
+
+- **Testes**: Uma vantagem é que ele nos ajuda a deixar o código mais fácil de fazer manutenção, já que temos as responsabilidades devidamente separadas. Isso também traz uma facilidade na compreensão do código, além da sua reutilização. Além disso, você conseguirá realizar testes de uma maneira muito mais rápida e eficiente.
+
 Além disso, um software precisa ter estabilidade no processo de comunicação entre seus elementos de maneira dinâmica para que a experiência do usuário não seja prejudicada. 
 </p>
 
