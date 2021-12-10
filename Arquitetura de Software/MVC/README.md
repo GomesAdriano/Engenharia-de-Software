@@ -65,9 +65,9 @@ A camada de controle é responsável por intermediar as requisições enviadas p
 
 ## 4. **Como os componentes interagem?**
 
-Tudo começa com a interação do usuário na camada View. A partir daí o controlador pega essas informações e envia para o Model que fica responsável por avaliar aqueles dados e transmitir uma resposta. 
+<p align="justify">Tudo começa com a interação do usuário na camada View. A partir daí o controlador pega essas informações e envia para o Model que fica responsável por avaliar aqueles dados e transmitir uma resposta. 
 O controlador recebe essas respostas e envia uma notificação de validação daquela informação para a camada visão, fazendo com a mesma apresente o resultado de maneira gráfica e visual.
-Todo esse processo leva em consideração as regras de negócio aplicadas na construção de todo projeto.
+Todo esse processo leva em consideração as regras de negócio aplicadas na construção de todo projeto.</p>
 
 
 ## 5. **Diagrama**
@@ -76,7 +76,7 @@ Todo esse processo leva em consideração as regras de negócio aplicadas na con
 
 
 ## 6.**Por que usar MVC?**
-<p align="justify">
+
 - **Segurança**: O controller funciona como uma espécie de filtro capaz de impedir que qualquer dado incorreto chegue até a camada modelo. 
 
 - **Organização**: Esse método de programação permite que um novo desenvolvedor tenha muito mais facilidade em entender o que foi construído, assim como os erros se tornam mais fácil de serem encontrados e corrigidos.
@@ -89,7 +89,7 @@ Todo esse processo leva em consideração as regras de negócio aplicadas na con
 
 - **Testes**: Uma vantagem é que ele nos ajuda a deixar o código mais fácil de fazer manutenção, já que temos as responsabilidades devidamente separadas. Isso também traz uma facilidade na compreensão do código, além da sua reutilização. Além disso, você conseguirá realizar testes de uma maneira muito mais rápida e eficiente.
 
-Além disso, um software precisa ter estabilidade no processo de comunicação entre seus elementos de maneira dinâmica para que a experiência do usuário não seja prejudicada.</p> 
+Além disso, um software precisa ter estabilidade no processo de comunicação entre seus elementos de maneira dinâmica para que a experiência do usuário não seja prejudicada. 
 
 
 ## 7.**Implementação do MVC**
