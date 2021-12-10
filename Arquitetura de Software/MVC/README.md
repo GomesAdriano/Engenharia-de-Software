@@ -11,6 +11,7 @@
 8. **Considerações finais**
 9. **Referências**
 
+<br>
 
 ## 1. **Materiais**
 
@@ -28,6 +29,7 @@ Este conteúdo está estruturado da seguinte forma:
 - **README.MD**
     - Arquivo MARKDOWN para melhor visualização do conteúdo
 
+<br>
 
 ## 2. **O que é MVC?**
 
@@ -48,6 +50,7 @@ O princípio básico do MVC é a divisão da aplicação em três camadas:
 Com o MVC, é possível separar o código relativo à interface do usuário das regras de negócio, o que sem dúvida traz muitas vantagens.
 </p>
 
+<br>
 
 ## 3. **Quais os papéis de cada camada?**
 
@@ -74,6 +77,8 @@ Essa camada é responsável por apresentar as informações de forma visual ao u
 A camada de controle é responsável por intermediar as requisições enviadas pelo View com as respostas fornecidas pelo Model, processando os dados que o usuário informou e repassando para outras camadas. 
 </p>
 
+<br>
+
 ## 4. **Como os componentes interagem?**
 
 <p align="justify">
@@ -82,11 +87,13 @@ O controlador recebe essas respostas e envia uma notificação de validação da
 Todo esse processo leva em consideração as regras de negócio aplicadas na construção de todo projeto.
 </p>
 
+<br>
 
 ## 5. **Diagrama**
 
 ![DIAGRAMA-MVC](https://github.com/GomesAdriano/Engenharia-de-Software/blob/main/Arquitetura%20de%20Software/MVC/Imagens/Diagrama-MVC.png)
 
+<br>
 
 ## 6.**Por que usar MVC?**
 
@@ -106,6 +113,7 @@ Todo esse processo leva em consideração as regras de negócio aplicadas na con
 Além disso, um software precisa ter estabilidade no processo de comunicação entre seus elementos de maneira dinâmica para que a experiência do usuário não seja prejudicada. 
 </p>
 
+<br>
 
 ## 7.**Implementação do MVC**
 
@@ -113,6 +121,7 @@ Além disso, um software precisa ter estabilidade no processo de comunicação e
 Além da possibilidade de implementação manual, existem diversos frameworks que implementam o padrão MVC e são muito utilizados em diversos projetos. Existem diversos artigos e sites especializados que comparam as diferenças e vantagens entre esses diferentes frameworks. No entanto, o melhor é sempre verificar o que cada framework disponibiliza para os desenvolvedores e analisar se atende às expectativas.
 </p>
 
+<br>
 
 ## 8. **Considerações finais**
 
@@ -122,6 +131,7 @@ Por padrão existem a camada Model, Controller e View que deram origem a sigla d
 Algumas empresas podem até cobrar o conhecimento de determinados frameworks para sua aplicação no dia-a-dia, por isso é interessante que o candidato participe de bootcamps que explorem o assunto de maneira adequada, a fim de melhorar a curva de aprendizado de quem quer explorar a área.
 </p>
 
+<br>
 
 ## 9. **Referências**
 
@@ -131,5 +141,5 @@ Links dos sites utilizados para a criação do conteúdo.
 - [Le Wagon](https://www.lewagon.com/pt-BR/blog/o-que-e-padrao-mvc)  
 - [DevMedia](https://www.devmedia.com.br/introducao-ao-padrao-mvc/29308)
 
-Playlist do [YouTube](https://www.youtube.com/) do canal [While True](https://www.youtube.com/channel/UCI4mJ2FXeA-RuDbwZA0z_MA) utilizada para criação do Exemplo
+Playlist do [YouTube](https://www.youtube.com/) do canal [While True](https://www.youtube.com/channel/UCI4mJ2FXeA-RuDbwZA0z_MA) utilizada para criação do Exemplo.
 - [Projeto JAVA com MVC](https://www.youtube.com/playlist?list=PLJIP7GdByOyuBKB--fIO2DoQaPVXm9lCw)
