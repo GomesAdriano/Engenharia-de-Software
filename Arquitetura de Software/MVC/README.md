@@ -29,7 +29,7 @@ Este conteúdo está estruturado da seguinte forma:
 - **README.MD**
     - Arquivo MARKDOWN para melhor visualização do conteúdo
 
-<p> </p>
+<br>
 
 ## 2. **O que é MVC?**
 
@@ -91,7 +91,9 @@ Todo esse processo leva em consideração as regras de negócio aplicadas na con
 
 ## 5. **Diagrama**
 
+<p align="center">
 ![DIAGRAMA-MVC](https://github.com/GomesAdriano/Engenharia-de-Software/blob/main/Arquitetura%20de%20Software/MVC/Imagens/Diagrama-MVC.png)
+<p>
 
 <br>
 
