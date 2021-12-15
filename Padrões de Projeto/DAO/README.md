@@ -75,7 +75,7 @@ Portanto, em geral, cada método do DAO deve fazer uma única leitura ou gravaç
 
 <br>
 
-## 5.**Implementação**
+## 5. **Implementação**
 
 <p align="justify">
 A vantagem de usar uma classe específica para o acesso a dados é evitar espalhar SQLs em todo lugar, tornando a manutenção e evolução de um sistema um pesadelo.
