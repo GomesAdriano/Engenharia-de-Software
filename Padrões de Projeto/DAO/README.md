@@ -44,7 +44,7 @@ O Data Access Object (DAO) é um padrão de projetos onde um objeto:
 Numa aplicação web comum seguindo o modelo MVC, os DAOs ficam junto com o Model fazendo um trabalho de suporte, integrando a fonte de dados ao modelo de objetos do sistema.
 </p>
 
-![DIAGRAMA-MVC](https://github.com/GomesAdriano/Engenharia-de-Software/blob/main/Padr%C3%B5es%20de%20Projeto/DAO/Imagens/Diagrama-DAO.png)
+![DIAGRAMA-MVC](/Padr%C3%B5es%20de%20Projeto/DAO/Imagens/Diagrama-DAO.png)
 
 <br>
 
