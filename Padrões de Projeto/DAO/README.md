@@ -52,7 +52,9 @@ Numa aplicação web comum seguindo o modelo MVC, os DAOs ficam junto com o Mode
 
 <p align="justify">
 Seguindo o princípio de responsabilidade única, um DAO não deve ser responsável por mais do que acesso aos dados.
+
 Definir quem faz o que pode ser um problema quando pensamos na arquitetura de um sistema, mas grande parte disso é porque misturamos as coisas.
+
 Se olhar bem o diagrama acima, fica fácil identificarmos a responsabilidade de cada elemento.
 Suponha que o usuário está acessando a página inicial do sistema web. Então uma interação comum poderia ser:
 </p>
@@ -79,13 +81,17 @@ Portanto, em geral, cada método do DAO deve fazer uma única leitura ou gravaç
 
 <p align="justify">
 A vantagem de usar uma classe específica para o acesso a dados é evitar espalhar SQLs em todo lugar, tornando a manutenção e evolução de um sistema um pesadelo.
+
 Em geral, agrupa-se os acessos aos dados por similaridade, por exemplo, uma classe por tabela. Porém, não é sempre que isso faz sentido, principalmente quando o sistema não é somente feito de cadastros simples (CRUD).
+
 Um exemplo claro são sistemas que possuem buscas avançadas em que acessam várias tabelas. Nesse caso, cada situação precisa ser analisada caso a caso. No exemplo das buscas, um DAO específico para isso seria interessante.
+
 Usar interfaces é opcional. Veja, Java tem uma péssima reputação por usar muitas interfaces, mas isso tem seus motivos, por exemplo:
-Permitir várias implementações para bancos de dados diferentes sem alterar o sistema
-Permitir versões diferentes convivendo na mesma versão do sistema (isso pode ser útil em alguns casos, como quando algum campo pode ou não existir e você quer atualizar o sistema sem obrigar a criação do campo)
-Facilitar testes unitários criando implementações Fakes dos DAOs, por exemplo, que usam listas em memória, embora frameworks como Mockito consigam gerar mocks dinamicamente sem uma interface.
 </p>
+
+- Permitir várias implementações para bancos de dados diferentes sem alterar o sistema
+- Permitir versões diferentes convivendo na mesma versão do sistema (isso pode ser útil em alguns casos, como quando algum campo pode ou não existir e você quer atualizar o sistema sem obrigar a criação do campo)
+- Facilitar testes unitários criando implementações Fakes dos DAOs, por exemplo, que usam listas em memória, embora frameworks como - Mockito consigam gerar mocks dinamicamente sem uma interface.
 
 <br>
 
