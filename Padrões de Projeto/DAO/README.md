@@ -17,6 +17,9 @@ Este conteúdo está estruturado da seguinte forma:
 
 - **Documentos**
     - Conteúdo em arquivo .docx e .pdf
+
+- **Imagens**
+    - Imagens dos diagramas
     
 - **README.MD**
     - Arquivo MARKDOWN para melhor visualização do conteúdo
@@ -40,6 +43,12 @@ O Data Access Object (DAO) é um padrão de projetos onde um objeto:
 <p align="justify">
 Numa aplicação web comum seguindo o modelo MVC, os DAOs ficam junto com o Model fazendo um trabalho de suporte, integrando a fonte de dados ao modelo de objetos do sistema.
 </p>
+
+<p align="center">
+
+![DIAGRAMA-MVC](https://github.com/GomesAdriano/Engenharia-de-Software/blob/main/Arquitetura%20de%20Software/MVC/Imagens/Diagrama-MVC.png)
+
+<p>
 
 <br>
 
@@ -81,9 +90,6 @@ Permitir várias implementações para bancos de dados diferentes sem alterar o 
 Permitir versões diferentes convivendo na mesma versão do sistema (isso pode ser útil em alguns casos, como quando algum campo pode ou não existir e você quer atualizar o sistema sem obrigar a criação do campo)
 Facilitar testes unitários criando implementações Fakes dos DAOs, por exemplo, que usam listas em memória, embora frameworks como Mockito consigam gerar mocks dinamicamente sem uma interface.
 </p>
-
-- [Aplicação em Java para Web Utilizando View Helper](https://topicosfatec.wordpress.com/2016/06/06/aula-13-camadas-e-view-helper-generica/)
-- [Aplicação em Android com MVC Utilizando a Classe Helper](https://ptdocz.com/doc/289383/exerc%C3%ADcio-02--a-classe-helper)
 
 <br>
 
