@@ -83,7 +83,9 @@ A camada de controle é responsável por intermediar as requisições enviadas p
 
 <p align="justify">
 Tudo começa com a interação do usuário na camada View. A partir daí o controlador pega essas informações e envia para o Model que fica responsável por avaliar aqueles dados e transmitir uma resposta. 
+
 O controlador recebe essas respostas e envia uma notificação de validação daquela informação para a camada visão, fazendo com a mesma apresente o resultado de maneira gráfica e visual.
+
 Todo esse processo leva em consideração as regras de negócio aplicadas na construção de todo projeto.
 </p>
 
@@ -97,17 +99,35 @@ Todo esse processo leva em consideração as regras de negócio aplicadas na con
 
 ## 6.**Por que usar MVC?**
 
-- **Segurança**: <p align="justify">O controller funciona como uma espécie de filtro capaz de impedir que qualquer dado incorreto chegue até a camada modelo. </p>
+- **Segurança**: 
+<p align="justify">
+O controller funciona como uma espécie de filtro capaz de impedir que qualquer dado incorreto chegue até a camada modelo. 
+</p>
 
-- **Organização**: <p align="justify">Esse método de programação permite que um novo desenvolvedor tenha muito mais facilidade em entender o que foi construído, assim como os erros se tornam mais fácil de serem encontrados e corrigidos.</p>
+- **Organização**: 
+<p align="justify">
+Esse método de programação permite que um novo desenvolvedor tenha muito mais facilidade em entender o que foi construído, assim como os erros se tornam mais fácil de serem encontrados e corrigidos.
+</p>
 
-- **Eficiência**: <p align="justify">Como a arquitetura de software é dividida em 3 componentes, sua aplicação fica muito mais leve, permitindo que vários desenvolvedores trabalhem no projeto de forma independente.</p>
+- **Eficiência**: 
+<p align="justify">
+Como a arquitetura de software é dividida em 3 componentes, sua aplicação fica muito mais leve, permitindo que vários desenvolvedores trabalhem no projeto de forma independente.
+</p>
 
-- **Tempo**: <p align="justify">Com a dinâmica facilitada pela colaboração entre os profissionais de desenvolvimento, o projeto pode ser concluído com muito mais rapidez, tornando o projeto escalável.</p> 
+- **Tempo**: 
+<p align="justify">
+Com a dinâmica facilitada pela colaboração entre os profissionais de desenvolvimento, o projeto pode ser concluído com muito mais rapidez, tornando o projeto escalável.
+</p> 
 
-- **Transformação**: <p align="justify">As mudanças que forem necessárias também são mais fluidas, já que não será essencial trabalhar nas regras de negócio e correção de bugs.</p>
+- **Transformação**: 
+<p align="justify">
+As mudanças que forem necessárias também são mais fluidas, já que não será essencial trabalhar nas regras de negócio e correção de bugs.
+</p>
 
-- **Testes**: <p align="justify">Uma vantagem é que ele nos ajuda a deixar o código mais fácil de fazer manutenção, já que temos as responsabilidades devidamente separadas. Isso também traz uma facilidade na compreensão do código, além da sua reutilização. Além disso, você conseguirá realizar testes de uma maneira muito mais rápida e eficiente.</p>
+- **Testes**: 
+<p align="justify">
+Uma vantagem é que ele nos ajuda a deixar o código mais fácil de fazer manutenção, já que temos as responsabilidades devidamente separadas. Isso também traz uma facilidade na compreensão do código, além da sua reutilização. Além disso, você conseguirá realizar testes de uma maneira muito mais rápida e eficiente.
+</p>
 
 <p align="justify">
 Além disso, um software precisa ter estabilidade no processo de comunicação entre seus elementos de maneira dinâmica para que a experiência do usuário não seja prejudicada. 
@@ -127,7 +147,9 @@ Além da possibilidade de implementação manual, existem diversos frameworks qu
 
 <p align="justify">
 O MVC funciona como um padrão de arquitetura de software que melhora a conexão entre as camadas de dados, lógica de negócio e interação com usuário. Através da sua divisão em três componentes, o processo de programação se torna algo mais simples e dinâmico.
-Por padrão existem a camada Model, Controller e View que deram origem a sigla dessa arquitetura de software mais utilizado entre os desenvolvedores.  
+
+Por padrão existem a camada Model, Controller e View que deram origem a sigla dessa arquitetura de software mais utilizado entre os desenvolvedores.
+
 Algumas empresas podem até cobrar o conhecimento de determinados frameworks para sua aplicação no dia-a-dia, por isso é interessante que o candidato participe de bootcamps que explorem o assunto de maneira adequada, a fim de melhorar a curva de aprendizado de quem quer explorar a área.
 </p>
 
