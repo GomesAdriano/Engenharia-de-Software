@@ -87,7 +87,6 @@ Desenvolver uma aplicação utilizando algum padrão de projeto pode trazer algu
 - Ajuda a construir softwares confiáveis com arquiteturas testadas;
 - Reduz o tempo de desenvolvimento de um projeto.
 
-
 <br>
 
 ## 6. **Considerações finais**
