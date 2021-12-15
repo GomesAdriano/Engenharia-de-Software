@@ -29,7 +29,6 @@ O padrão de projeto View Helper tem como principal objetivo formatar os dados o
 </p>
 
 - São classes Helpers todas aquelas com objetivo de auxiliar única e exclusivamente a camada de Visualização.
-
 - Separar código e responsabilidades de formatação da interface do usuário do processamento de dados necessários à construção da View.
 
 <br>
@@ -49,7 +48,9 @@ O padrão de projeto View Helper tem como principal objetivo formatar os dados o
 
 <p align="justify">
 Um dos grandes avanços promovidos pelo paradigma de desenvolvimento orientado a objetos, foi a criação de auxiliares que podem ser agregados às classes para efetuar um conjunto específico de ações. 
+
 A esses auxiliares foi dado um nome: Class Helpers. Estes elementos foram criados para que desenvolvedores pudessem adicionar funcionalidades a uma classe sem precisar estendê-la em uma classe derivada. 
+
 Isso é extremamente importante, principalmente quando temos desenvolvimentos legados.
 </p>
 
