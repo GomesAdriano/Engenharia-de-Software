@@ -50,7 +50,7 @@ A verdade é que você pode conseguir trabalhar como um programador por muitos a
 
 <br>
 
-## 4.**Classificação dos padrões**
+## 4. **Classificação dos padrões**
 
 <p align="justify">
 Padrões de projeto diferem por sua complexidade, nível de detalhes, e escala de aplicabilidade ao sistema inteiro sendo desenvolvido. Eu gosto da analogia com a construção de uma rodovia: você sempre pode fazer uma intersecção mais segura instalando algumas sinaleiras ou construindo intercomunicações de vários níveis com passagens subterrâneas para pedestres.
