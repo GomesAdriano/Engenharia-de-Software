@@ -55,7 +55,7 @@ Isso é extremamente importante, principalmente quando temos desenvolvimentos le
 
 <br>
 
-## 5.**Implementação**
+## 5. **Implementação**
 
 <p align="justify">
 Explicação e implementação de exemplos utilizando o padrão de projeto View Helper e classes Helpers.
