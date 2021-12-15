@@ -46,7 +46,7 @@ Numa aplicação web comum seguindo o modelo MVC, os DAOs ficam junto com o Mode
 
 <p align="center">
 
-![DIAGRAMA-MVC](https://github.com/GomesAdriano/Engenharia-de-Software/blob/main/Arquitetura%20de%20Software/MVC/Imagens/Diagrama-MVC.png)
+![DIAGRAMA-MVC]https://github.com/GomesAdriano/Engenharia-de-Software/blob/main/Padr%C3%B5es%20de%20Projeto/DAO/Imagens/Diagrama-DAO.png)
 
 <p>
 
