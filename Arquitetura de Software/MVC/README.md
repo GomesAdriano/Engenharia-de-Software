@@ -91,7 +91,7 @@ Todo esse processo leva em consideração as regras de negócio aplicadas na con
 
 ## 5. **Diagrama**
 
-![DIAGRAMA-MVC](https://github.com/GomesAdriano/Engenharia-de-Software/blob/main/Arquitetura%20de%20Software/MVC/Imagens/Diagrama-MVC.png)
+![DIAGRAMA-MVC](/Arquitetura%20de%20Software/MVC/Imagens/Diagrama-MVC.png)
 
 <br>
 
